@@ -1,0 +1,147 @@
+p{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.search-container input{
+    max-width: 40%;
+    position: relative;
+    left: 30%;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-container{
+    margin-top: 20px;
+}
+
+#card-container{
+    width: 20%;
+    margin-top: 20px;
+    text-align: center;
+    height: 300px;
+    margin-left: 10px;
+}
+#card-container img{
+    height: 150px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#card-container button{
+    margin-top: 10px;
+}
+#card-container textarea {
+    margin-top: 10px;
+    resize: none;
+}
+
+.head-container{
+    margin-left: 10px;
+}
+.head-container img {
+    width: 30px;
+}
+
+#form-container {
+    display: flex;
+}
+
+
+#form-container button {
+    margin-bottom: 10px;
+}
+
+#show-container {
+    width: 30%;
+    margin-top: 30px;
+    height: 350px;
+    margin-left: 10px;
+    position: relative;
+    left: 34%;
+    right: 41%;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+#show-container li,
+#show-container ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+#show-container img {
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+#card-container-2 {
+    width: 40%;
+    margin-top: 30px;
+    text-align: center;
+    height: 300px;
+    margin-left: 10px;
+    position: relative;
+    left: 30%;
+    right: 30%;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+#card-container-2 button {
+    width: 40%;
+    margin-top: 10px;
+}
+#card-container-2 textarea{
+    resize: none;
+}
+.msg {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #c6cbef;
+    padding-top: 10px;
+}
+.msg li{
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    list-style-type: none;
+}
+.warn-p {
+    position: relative;
+    left: 40%;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    padding-top: 10px;
+    width:100%;
+    height: 50px;
+    text-align: center;
+    background-color: #ababab;
+}
+
+#navbarNavAltMarkup a {
+    font-size: 15px;
+}
+#logout button{
+    border: none;
+    background-color: #f8f9fa!important;
+}
+.table{
+    max-width: 90%;
+    position: relative;
+    left: 5%;
+    top: 30px;
+}
+
+.warn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
