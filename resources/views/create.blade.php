@@ -3,6 +3,15 @@
 @section('title', 'criar projeto')
 
 @section('content')
+    @if($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
     <div class="card form-group" id="card-container-2">
         <div class="card-body">
             <form action="{{route('project.store')}}" method="POST">

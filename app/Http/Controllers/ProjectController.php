@@ -37,6 +37,11 @@ class ProjectController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'title' => 'required',
+            'description' => 'required|max:30',
+        ]);
+
         $card = new Project();
         $card->title = $request->title;
         $card->description = $request->description;
